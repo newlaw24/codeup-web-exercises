@@ -1,0 +1,18 @@
+
+.box{
+    border: 1px solid black;
+    width: 150px;
+    heigth: 50px;
+    padding: adding:10px:
+    background-color: aqua;
+    margin-bottom: 10px;
+
+    }
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
