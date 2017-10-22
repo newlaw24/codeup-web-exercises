@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="./js/objects.js">
+</script>
+<script>
+var cars = [
+{
+make: "Toyota",
+model: "Camry",
+features: ["Automatic Windows", "Bluetooth Connectivity", "GPS Navigation"],
+owner: {
+name: "Jane Doe",
+age: 30
+}
+},
+{
+make: "Honda",
+model: "Accord",
+features: ["Automatic Windows", "Great Gas Mileage", "AM/FM Radio"],
+owner: {
+name: "John Doe",
+age: 31
+}
+}
+];
+
+console.log("The first car is a " + cars[0].make + " " + cars[0].model + ".");
+console.log("The owner of the second car is " + cars[1].owner.name + ".");
+
+console.log("Here are all the features of all the cars:");
+cars.forEach(function(car) {
+car.features.forEach(function(feature) {
+console.log(feature);
+});
+});
+
+
+
+var car = {};
+car.make = "Toyota";
+car.model = "Camry";
+
+car.logMakeModel = function () {
+    console.log("Car make/model is: " + this.make + " " + this.model);
+
+</script>
+
+</body>
+</html>

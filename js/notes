@@ -1,0 +1,60 @@
+/*method is a property that is a function
+
+defining prperties and values with object literal synatx
+car.numberOfWheels = 4;
+
+var car1 = {
+year: 2015,
+make: "Honday",
+model: "Accord"
+isBrandNew: false,
+owner: {
+    name: "John Doe"
+    age: 33
+}
+};
+
+object literal
+var car2 = {
+    make: "Toyota";
+    model: "Tundra";
+};
+
+car.make
+
+examples:
+cars[0].make
+conosle.log(car #1 - " make: " + cars[0].make + " model: " + cars[0]
+
+=====================================================
+- while loop: do something an unknown number of times
+ *   - do-while: if the thing needs to happen *at least* once
+ * - for loop: when you want to loop a known number of times
+ *
+ * Break + Contiue:
+ *
+ * - break: prematurely stop a loop
+ * - continue: skip a loop iteration
+
+ 4 parts of defining a function in js
+ 1st part is the world "function"
+
+ ==========================
+while loop is a basic looping construct that will execute a code block as long as a certain condition is true
+do-while loop is only different from a while in that the condition is evaluated at the end of the loop instead of the beginning.
+ Syntax:
+ while (/*condition*/) {
+     // body
+ }
+
+for (statement 1; statement 2; statement 3) {
+    code block to be executed
+}
+Statement 1 is executed before the loop (the code block) starts.
+
+Statement 2 defines the condition for running the loop (the code block).
+
+Statement 3 is executed each time after the loop (the code block) has been executed
+continues loop until coondition is met.
+
+reviewe loops!
